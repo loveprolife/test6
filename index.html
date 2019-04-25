@@ -6,25 +6,32 @@
     <script type="text/javascript" src="echarts.js"></script>
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 </head>
-<body style="width: 3000px;">
+<body style="width: 3150px; height: 1800px">
 
 
-<div style="float: left; padding-top: 350px;"><div id="chartmain_zhejiangsheng_all_point" style="width: 1695px; height: 1700px;"></div></div>
 
-
-<div style="float: right;">
-    <div id="chartmain_hangzhou_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
-    <div id="chartmain_wenzhou_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
-    <div id="chartmain_jinhua_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
-    <div id="chartmain_ningbo_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+<div style="float: left">
+    <div id="chartmain_hangzhou_qinianji_sanjipoint" style="width: 670px; height: 430px;"></div>
+    <div id="chartmain_wenzhou_qinianji_sanjipoint" style="width: 670px; height: 430px;"></div>
+    <div id="chartmain_jinhua_qinianji_sanjipoint" style="width: 670px; height: 430px;"></div>
+    <div id="chartmain_ningbo_qinianji_sanjipoint" style="width: 670px; height: 430px;"></div>
 </div>
 
 
-<div style="float: right;">
-    <div id="chartmain_hangzhou_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
-    <div id="chartmain_wenzhou_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
-    <div id="chartmain_jinhua_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
-    <div id="chartmain_ningbo_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+
+<div style="padding-top: 0px; float: left">
+    <div id="chartmain_zhejiangsheng_all_point" style="width: 1800px; height: 1800px;"></div>
+</div>
+
+
+
+
+
+<div style="float:left;">
+    <div id="chartmain_hangzhou_8nianji_sanjipoint" style="width: 670px; height: 430px;"></div>
+    <div id="chartmain_wenzhou_8nianji_sanjipoint" style="width: 670px; height: 430px;"></div>
+    <div id="chartmain_jinhua_8nianji_sanjipoint" style="width: 670px; height: 430px;"></div>
+    <div id="chartmain_ningbo_8nianji_sanjipoint" style="width: 670px; height: 430px;"></div>
 </div>
 
 
@@ -84,7 +91,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.percent+'%' + v.name;
+                            let text = v.percent+'' + v.name;
                             if(text.length <= 8)
                             {
                                 return text;
@@ -137,7 +144,7 @@
             {
                 "name": "二级指标",
                 "type": "pie",
-                // "minAngle": 2,
+                // "minAngle": 10,
                 "avoidLabelOverlap": true,
                 "center": ['50%', '50%'],
                 "radius": [
@@ -149,7 +156,25 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.percent+'%' + v.name;
+                            let text = v.percent+'' + v.name;
+                            if(v.name == '二元一次方程(组)'){
+                                return text;
+                            }
+                            if(v.name == '一元二次方程'){
+                                return text;
+                            }
+                            if(v.name == '一元一次不等式(组)'){
+                                return text;
+                            }
+                            if(v.name == '一元一次方程'){
+                                return text;
+                            }
+                            if(v.name == '投影与视图'){
+                                return text;
+                            }
+                            if(v.name == '解直角三角形'){
+                                return text;
+                            }
                             if(text.length <= 8)
                             {
                                 return text;
@@ -202,7 +227,7 @@
                         "value": "4.315972222222217"
                     },
                     {
-                        "name": "二元一次方程（组）",
+                        "name": "二元一次方程(组)",
                         "value": "1.3159722222222232"
                     },
                     {
@@ -214,7 +239,7 @@
                         "value": "1.29513888888888"
                     },
                     {
-                        "name": "一元一次不等式（组）",
+                        "name": "一元一次不等式(组)",
                         "value": "2.17361111111111"
                     },
                     {
@@ -278,13 +303,13 @@
                 "avoidLabelOverlap": true,
                 "center": ['50%', '50%'],
                 "radius": [
-                    "55.9%",
-                    "65%"
+                    "60%",
+                    "70%"
                 ],
                 "label": {
                     "normal": {
                         "position": "outer",
-                        "formatter": "{b}{d}%",
+                        "formatter": "{b}{d}",
                         "textStyle": {
                             "fontSize": 20
                         }
@@ -556,7 +581,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -608,7 +633,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -660,7 +685,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -712,7 +737,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -766,7 +791,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -818,7 +843,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -870,7 +895,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
@@ -922,7 +947,7 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'%';
+                            let text = v.name + v.percent+'';
                             return text;
                         },
                         "textStyle": {
