@@ -1,23 +1,33 @@
 <?php
 
 header("Access-Control-Allow-Origin: *");
+//
+//$connect = mysqli_connect('39.106.102.214','root','123aliyunwp','test','3306');
+//mysqli_query($connect,'set names utf8');
+//
+//
+//$sql_san = 'SELECT id, san_name, SUM(zhi_hangzhou) FROM test002 GROUP BY san_name ORDER BY id ASC';
+//$result_san = mysqli_query($connect, $sql_san)->fetch_all();
+//
+//$connect->close();
+//
+//
 
-$connect = mysqli_connect('39.106.102.214','root','123aliyunwp','test','3306');
-mysqli_query($connect,'set names utf8');
-mysqli_query($connect,"set sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';");
 
+
+$dbh=new PDO('mysql:host=39.106.102.214;port=3306; dbname=test','root','123aliyunwp',array(PDO::ATTR_PERSISTENT=>true));
 
 $sql_san = 'SELECT id, san_name, SUM(zhi_hangzhou) FROM test002 GROUP BY san_name ORDER BY id ASC';
-$result_san = mysqli_query($connect, $sql_san)->fetch_all();
+$result_san = $dbh->query($sql_san)->fetchAll(PDO::FETCH_ASSOC);
 
-$connect->close();
+
 
 $rrrr = array();
 for($i = 0; $i < count($result_san); $i++){
-    if((float)$result_san[$i][2] > 0){
+    if((float)$result_san[$i]['SUM(zhi_hangzhou)'] > 0){
         $t = array();
-        $t['name'] = $result_san[$i][1];
-        $t['value'] = $result_san[$i][2];
+        $t['name'] = $result_san[$i]['san_name'];
+        $t['value'] = $result_san[$i]['SUM(zhi_hangzhou)'];
         array_push($rrrr, $t);
     }
 }
