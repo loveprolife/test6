@@ -16,6 +16,7 @@ header("Access-Control-Allow-Origin: *");
 
 
 $dbh=new PDO('mysql:host=39.106.102.214;port=3306; dbname=test','root','123aliyunwp',array(PDO::ATTR_PERSISTENT=>true));
+$dbh -> query('set names utf-8');
 
 $sql_san = 'SELECT id, san_name, SUM(zhi_hangzhou) FROM test002 GROUP BY san_name ORDER BY id ASC';
 $result_san = $dbh->query($sql_san)->fetchAll(PDO::FETCH_ASSOC);
