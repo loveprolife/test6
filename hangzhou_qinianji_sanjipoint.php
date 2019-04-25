@@ -2,7 +2,7 @@
 
 header("Access-Control-Allow-Origin: *");
 
-$connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
+$connect = mysqli_connect('39.106.102.214','root','123aliyunwp','test','3306');
 mysqli_query($connect,'set names utf8');
 
 $sql_san = 'SELECT id, san_name, SUM(zhi_hangzhou) FROM test002 GROUP BY san_name ORDER BY id ASC';
