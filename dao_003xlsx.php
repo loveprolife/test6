@@ -23,18 +23,18 @@ foreach ($excel->getWorksheetIterator() as $sheet){
                 $data = $cell->getValue();
             }elseif($tag == 9){
                 $data = $cell->getValue();
-            }elseif($tag == 100){
-                $data = $cell->getCalculatedValue();
             }elseif($tag == 101){
                 $data = $cell->getCalculatedValue();
             }elseif($tag == 102){
                 $data = $cell->getCalculatedValue();
             }elseif($tag == 103){
                 $data = $cell->getCalculatedValue();
+            }elseif($tag == 104){
+                $data = $cell->getCalculatedValue();
             }else{
                 $data = $cell->getValue();
             }
-            if($tag == 3 || $tag == 5 || $tag == 7 || $tag == 9 || $tag == 100 || $tag == 101 || $tag == 102 || $tag == 103){
+            if($tag == 3 || $tag == 5 || $tag == 7 || $tag == 9 || $tag == 101 || $tag == 102 || $tag == 103 || $tag == 104){
                 array_push($tmp, $data);
             }
             ++$tag;
