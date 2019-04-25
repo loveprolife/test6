@@ -91,7 +91,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.percent+'' + v.name;
+                            // let text = v.percent+'%' + v.name;
+                            let text = v.name;
                             if(text.length <= 8)
                             {
                                 return text;
@@ -156,7 +157,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.percent+'' + v.name;
+                            // let text = v.percent+'%' + v.name;
+                            let text = v.name;
                             if(v.name == '二元一次方程(组)'){
                                 return text;
                             }
@@ -309,8 +311,9 @@
                 "label": {
                     "normal": {
                         "position": "outer",
-                        "formatter": "{b}{d}",
-                        "textStyle": {
+                        //"formatter": "{b}{d}%",
+                        "formatter": "{b}",
+                "textStyle": {
                             "fontSize": 20
                         }
                     }
@@ -581,7 +584,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -633,7 +637,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -685,7 +690,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -737,7 +743,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -791,7 +798,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -843,7 +851,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -895,7 +904,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
@@ -947,7 +957,8 @@
                         "show": true,
                         "position": "outer",
                         formatter(v) {
-                            let text = v.name + v.percent+'';
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
                             return text;
                         },
                         "textStyle": {
