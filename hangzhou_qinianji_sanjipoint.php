@@ -13,6 +13,7 @@ header("Access-Control-Allow-Origin: *");
 //
 //
 
+header("Content-type:text/html;charset=utf-8");
 
 
 $dbh=new PDO('mysql:host=39.106.102.214;port=3306; dbname=test','root','123aliyunwp',array(PDO::ATTR_PERSISTENT=>true));
