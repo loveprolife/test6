@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="echarts.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body style="width: 3000px;">
+
+
+<div style="float: left; padding-top: 350px;"><div id="chartmain_zhejiangsheng_all_point" style="width: 1695px; height: 1700px;"></div></div>
+
+
+<div style="float: right;">
+    <div id="chartmain_hangzhou_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+    <div id="chartmain_wenzhou_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+    <div id="chartmain_jinhua_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+    <div id="chartmain_ningbo_qinianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+</div>
+
+
+<div style="float: right;">
+    <div id="chartmain_hangzhou_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+    <div id="chartmain_wenzhou_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+    <div id="chartmain_jinhua_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+    <div id="chartmain_ningbo_8nianji_sanjipoint" style="width: 630px; height: 630px;"></div>
+</div>
+
+
+<script type="text/javascript">
+
+    $.ajaxSettings.async = false;
+
+
+
+    // $.get("http://localhost:8080/zhejiangsheng_all_point.php",function(data,status){
+    //     zhejiangsheng_all_point = JSON.parse(data);
+    // });
+    zhejiangsheng_all_point = {
+        "title": {
+            "text": "浙江省四市中考知识点分析汇总",
+            "subtext": "",
+            "left": "center",
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 30
+            }
+        },
+        "backgroundColor": {
+            "x": 0,
+            "y": 0,
+            "r": 1,
+            "type": "radial",
+            "global": false,
+            "colorStops": [
+                {
+                    "offset": 0,
+                    "color": "#ffffff"
+                },
+                {
+                    "offset": "1",
+                    "color": "#ffffff"
+                }
+            ]
+        },
+        "tooltip": {
+            "trigger": "item",
+            "formatter": "{a} {b}:({d}%)"
+        },
+        "series": [
+            {
+                "name": "一级指标",
+                "type": "pie",
+                // "minAngle": 2,
+                "avoidLabelOverlap": true,
+                "center": ['50%', '50%'],
+                "radius": [
+                    0,
+                    "10%"
+                ],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.percent+'%' + v.name;
+                            if(text.length <= 8)
+                            {
+                                return text;
+                            }else if(text.length > 8 && text.length <= 16){
+                                return text = `${text.slice(0,8)}\n${text.slice(8)}`
+                            }else if(text.length > 16 && text.length <= 24){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16)}`
+                            }else if(text.length > 24 && text.length <= 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24)}`
+                            }else if(text.length > 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24,30)}\n${text.slice(30)}`
+                            }
+                        },
+                        "textStyle": {
+                            "fontSize": 20
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "name": "数与式",
+                        "value": "15.621527777777722"
+                    },
+                    {
+                        "name": "变量与函数",
+                        "value": "21.84722222222218"
+                    },
+                    {
+                        "name": "方程(组)与不等式(组)",
+                        "value": "7.118055555555547"
+                    },
+                    {
+                        "name": "统计与概率",
+                        "value": "11.791666666666703"
+                    },
+                    {
+                        "name": "专题与拓展",
+                        "value": "14.673611111111162"
+                    },
+                    {
+                        "name": "图形的认识",
+                        "value": "18.92361111111106"
+                    },
+                    {
+                        "name": "图形与变换",
+                        "value": "10.024305555555488"
+                    }
+                ]
+            },
+            {
+                "name": "二级指标",
+                "type": "pie",
+                // "minAngle": 2,
+                "avoidLabelOverlap": true,
+                "center": ['50%', '50%'],
+                "radius": [
+                    "27%",
+                    "37%"
+                ],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.percent+'%' + v.name;
+                            if(text.length <= 8)
+                            {
+                                return text;
+                            }else if(text.length > 8 && text.length <= 16){
+                                return text = `${text.slice(0,8)}\n${text.slice(8)}`
+                            }else if(text.length > 16 && text.length <= 24){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16)}`
+                            }else if(text.length > 24 && text.length <= 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24)}`
+                            }else if(text.length > 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24,30)}\n${text.slice(30)}`
+                            }
+                        },
+                        "textStyle": {
+                            "fontSize": 20
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "name": "二次根式",
+                        "value": "0.972222222222223"
+                    },
+                    {
+                        "name": "分式",
+                        "value": "1.798611111111104"
+                    },
+                    {
+                        "name": "实数",
+                        "value": "7.503472222222184"
+                    },
+                    {
+                        "name": "整式",
+                        "value": "5.347222222222213"
+                    },
+                    {
+                        "name": "二次函数",
+                        "value": "11.135416666666657"
+                    },
+                    {
+                        "name": "反比例函数",
+                        "value": "5.048611111111079"
+                    },
+                    {
+                        "name": "平面直角坐标系",
+                        "value": "1.3472222222222299"
+                    },
+                    {
+                        "name": "一次函数",
+                        "value": "4.315972222222217"
+                    },
+                    {
+                        "name": "二元一次方程（组）",
+                        "value": "1.3159722222222232"
+                    },
+                    {
+                        "name": "分式方程",
+                        "value": "1.62152777777778"
+                    },
+                    {
+                        "name": "一元二次方程",
+                        "value": "1.29513888888888"
+                    },
+                    {
+                        "name": "一元一次不等式（组）",
+                        "value": "2.17361111111111"
+                    },
+                    {
+                        "name": "一元一次方程",
+                        "value": "0.7118055555555529"
+                    },
+                    {
+                        "name": "概率",
+                        "value": "2.753472222222233"
+                    },
+                    {
+                        "name": "统计",
+                        "value": "9.03819444444447"
+                    },
+                    {
+                        "name": "几何变换",
+                        "value": "6.9826388888889"
+                    },
+                    {
+                        "name": "专题",
+                        "value": "7.690972222222262"
+                    },
+                    {
+                        "name": "几何图形初步",
+                        "value": "1.5798611111110887"
+                    },
+                    {
+                        "name": "平行四边形",
+                        "value": "3.90277777777774"
+                    },
+                    {
+                        "name": "三角形",
+                        "value": "3.861111111111108"
+                    },
+                    {
+                        "name": "圆",
+                        "value": "9.57986111111113"
+                    },
+                    {
+                        "name": "解直角三角形",
+                        "value": "3.01388888888885"
+                    },
+                    {
+                        "name": "投影与视图",
+                        "value": "2.125"
+                    },
+                    {
+                        "name": "图形的几何变换",
+                        "value": "1.68055555555556"
+                    },
+                    {
+                        "name": "图形的相似与位似",
+                        "value": "3.2048611111110774"
+                    }
+                ]
+            },
+            {
+                "name": "三级指标",
+                "type": "pie",
+                // "minAngle": 2,
+                "avoidLabelOverlap": true,
+                "center": ['50%', '50%'],
+                "radius": [
+                    "55.9%",
+                    "65%"
+                ],
+                "label": {
+                    "normal": {
+                        "position": "outer",
+                        "formatter": "{b}{d}%",
+                        "textStyle": {
+                            "fontSize": 20
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "name": "二次根式的概念和性质",
+                        "value": "0.7013888888888931"
+                    },
+                    {
+                        "name": "二次根式的运算",
+                        "value": "0.27083333333333"
+                    },
+                    {
+                        "name": "分式的概念和性质",
+                        "value": "0.552083333333334"
+                    },
+                    {
+                        "name": "分式的运算",
+                        "value": "1.24652777777777"
+                    },
+                    {
+                        "name": "实数的大小比较",
+                        "value": "0.62152777777778"
+                    },
+                    {
+                        "name": "实数的概念及分类",
+                        "value": "3.680555555555563"
+                    },
+                    {
+                        "name": "实数的基本运算",
+                        "value": "3.2013888888888395"
+                    },
+                    {
+                        "name": "因式分解",
+                        "value": "2.3055555555555443"
+                    },
+                    {
+                        "name": "整式的基本概念",
+                        "value": "0.173611111111113"
+                    },
+                    {
+                        "name": "整式的运算",
+                        "value": "2.868055555555556"
+                    },
+                    {
+                        "name": "二次函数的应用",
+                        "value": "8.7569444444444"
+                    },
+                    {
+                        "name": "二次函数图象及其性质",
+                        "value": "2.378472222222257"
+                    },
+                    {
+                        "name": "反比例函数的应用",
+                        "value": "4.52430555555552"
+                    },
+                    {
+                        "name": "反比例函数图象及其性质",
+                        "value": "0.524305555555559"
+                    },
+                    {
+                        "name": "平面直角坐标系的应用",
+                        "value": "1.2326388888889"
+                    },
+                    {
+                        "name": "平面直角坐标系及点的坐标",
+                        "value": "0.11458333333333"
+                    },
+                    {
+                        "name": "变量与函数",
+                        "value": "0.30208333333333404"
+                    },
+                    {
+                        "name": "一次函数的应用",
+                        "value": "2.60416666666666"
+                    },
+                    {
+                        "name": "一次函数图象及其性质",
+                        "value": "0.940972222222223"
+                    },
+                    {
+                        "name": "一次函数与方程（组）、不等式",
+                        "value": "0.46875"
+                    },
+                    {
+                        "name": "二元一次方程（组）的应用",
+                        "value": "0.8229166666666631"
+                    },
+                    {
+                        "name": "二元一次方程（组）及其解法",
+                        "value": "0.49305555555556"
+                    },
+                    {
+                        "name": "分式方程",
+                        "value": "0.71180555555556"
+                    },
+                    {
+                        "name": "分式方程的应用",
+                        "value": "0.90972222222222"
+                    },
+                    {
+                        "name": "解一元二次方程",
+                        "value": "0.61805555555555"
+                    },
+                    {
+                        "name": "一元二次方程的概念",
+                        "value": "0.42013888888888995"
+                    },
+                    {
+                        "name": "一元二次方程的应用",
+                        "value": "0.25694444444444"
+                    },
+                    {
+                        "name": "含参一元一次不等式（组）",
+                        "value": "0.42361111111111"
+                    },
+                    {
+                        "name": "一元一次不等式（组）",
+                        "value": "1.33680555555556"
+                    },
+                    {
+                        "name": "一元一次不等式（组）的应用",
+                        "value": "0.41319444444444"
+                    },
+                    {
+                        "name": "一元一次方程",
+                        "value": "0.347222222222223"
+                    },
+                    {
+                        "name": "一元一次方程的应用",
+                        "value": "0.36458333333333"
+                    },
+                    {
+                        "name": "概率",
+                        "value": "2.753472222222233"
+                    },
+                    {
+                        "name": "统计",
+                        "value": "9.03819444444447"
+                    },
+                    {
+                        "name": "几何综合",
+                        "value": "6.9826388888889"
+                    },
+                    {
+                        "name": "操作探究问题",
+                        "value": "4.19097222222224"
+                    },
+                    {
+                        "name": "规律探究问题",
+                        "value": "0.708333333333336"
+                    },
+                    {
+                        "name": "几何最值",
+                        "value": "0.44791666666666596"
+                    },
+                    {
+                        "name": "新定义问题",
+                        "value": "2.34375000000002"
+                    },
+                    {
+                        "name": "平面图形与立体图形",
+                        "value": "0.055555555555556"
+                    },
+                    {
+                        "name": "线段与角",
+                        "value": "0.10416666666667"
+                    },
+                    {
+                        "name": "相交线与平行线",
+                        "value": "1.4201388888888629"
+                    },
+                    {
+                        "name": "平行四边形",
+                        "value": "1.10763888888889"
+                    },
+                    {
+                        "name": "梯形与特殊平行四边形",
+                        "value": "2.79513888888885"
+                    },
+                    {
+                        "name": "等腰三角形与直角三角形",
+                        "value": "1.295138888888893"
+                    },
+                    {
+                        "name": "全等三角形",
+                        "value": "2.11458333333333"
+                    },
+                    {
+                        "name": "三角形",
+                        "value": "0.45138888888888506"
+                    },
+                    {
+                        "name": "与圆有关的计算",
+                        "value": "2.6805555555555602"
+                    },
+                    {
+                        "name": "与圆有关的位置关系",
+                        "value": "0.7361111111111099"
+                    },
+                    {
+                        "name": "圆的有关性质",
+                        "value": "6.16319444444446"
+                    },
+                    {
+                        "name": "解直角三角形",
+                        "value": "1.60069444444445"
+                    },
+                    {
+                        "name": "解直角三角形的应用",
+                        "value": "1.4131944444444"
+                    },
+                    {
+                        "name": "投影与视图",
+                        "value": "2.125"
+                    },
+                    {
+                        "name": "平移、轴对称、旋转概念及性质",
+                        "value": "1.68055555555556"
+                    },
+                    {
+                        "name": "三角形的相似",
+                        "value": "3.2048611111110774"
+                    }
+                ]
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_zhejiangsheng_all_point')).setOption(zhejiangsheng_all_point);
+
+
+
+    $.get("http://localhost:8080/hangzhou_qinianji_sanjipoint.php",function(data,status){
+        data_hang_zhou_qinianji_sanjipoint = JSON.parse(data);
+    });
+    option_hang_zhou_qinianji_sanjipoint = {
+        title : {
+            text: '杭州市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_hang_zhou_qinianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_hangzhou_qinianji_sanjipoint')).setOption(option_hang_zhou_qinianji_sanjipoint);
+
+    $.get("http://localhost:8080/wenzhou_qinianji_sanjipoint.php",function(data,status){
+        data_wenzhou_qinianji_sanjipoint = JSON.parse(data);
+    });
+    option_wenzhou_qinianji_sanjipoint = {
+        title : {
+            text: '温州市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_wenzhou_qinianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_wenzhou_qinianji_sanjipoint')).setOption(option_wenzhou_qinianji_sanjipoint);
+
+    $.get("http://localhost:8080/jinhua_qinianji_sanjipoint.php",function(data,status){
+        data_jinhua_qinianji_sanjipoint = JSON.parse(data);
+    });
+    option_jinhua_qinianji_sanjipoint = {
+        title : {
+            text: '金华市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_jinhua_qinianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_jinhua_qinianji_sanjipoint')).setOption(option_jinhua_qinianji_sanjipoint);
+
+    $.get("http://localhost:8080/ningbo_qinianji_sanjipoint.php",function(data,status){
+        data_ningbo_qinianji_sanjipoint = JSON.parse(data);
+    });
+    option_ningbo_qinianji_sanjipoint = {
+        title : {
+            text: '宁波市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_ningbo_qinianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_ningbo_qinianji_sanjipoint')).setOption(option_ningbo_qinianji_sanjipoint);
+
+
+
+    $.get("http://localhost:8080/hangzhou_8nianji_sanjipoint.php",function(data,status){
+        data_hang_zhou_8nianji_sanjipoint = JSON.parse(data);
+    });
+    option_hang_zhou_8nianji_sanjipoint = {
+        title : {
+            text: '杭州市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_hang_zhou_8nianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_hangzhou_8nianji_sanjipoint')).setOption(option_hang_zhou_8nianji_sanjipoint);
+
+    $.get("http://localhost:8080/wenzhou_8nianji_sanjipoint.php",function(data,status){
+        data_wenzhou_8nianji_sanjipoint = JSON.parse(data);
+    });
+    option_wenzhou_8nianji_sanjipoint = {
+        title : {
+            text: '温州市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_wenzhou_8nianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_wenzhou_8nianji_sanjipoint')).setOption(option_wenzhou_8nianji_sanjipoint);
+
+    $.get("http://localhost:8080/jinhua_8nianji_sanjipoint.php",function(data,status){
+        data_jinhua_8nianji_sanjipoint = JSON.parse(data);
+    });
+    option_jinhua_8nianji_sanjipoint = {
+        title : {
+            text: '金华市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_jinhua_8nianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_jinhua_8nianji_sanjipoint')).setOption(option_jinhua_8nianji_sanjipoint);
+
+    $.get("http://localhost:8080/ningbo_8nianji_sanjipoint.php",function(data,status){
+        data_ningbo_8nianji_sanjipoint = JSON.parse(data);
+    });
+    option_ningbo_8nianji_sanjipoint = {
+        title : {
+            text: '宁波市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "outer",
+                        formatter(v) {
+                            let text = v.name + v.percent+'%';
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: data_ningbo_8nianji_sanjipoint
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chartmain_ningbo_8nianji_sanjipoint')).setOption(option_ningbo_8nianji_sanjipoint);
+
+
+
+</script>
+</body>
+</html>
