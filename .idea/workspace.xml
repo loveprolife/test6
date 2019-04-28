@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangzhou_qinianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/hangzhou_qinianji_sanjipoint.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinhua_8nianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/jinhua_8nianji_sanjipoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinhua_qinianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/jinhua_qinianji_sanjipoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ningbo_8nianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/ningbo_8nianji_sanjipoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ningbo_qinianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/ningbo_qinianji_sanjipoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wenzhou_8nianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/wenzhou_8nianji_sanjipoint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wenzhou_qinianji_sanjipoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/wenzhou_qinianji_sanjipoint.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,24 +36,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="php" value="5" />
+          <entry key="php" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="PHP" value="5" />
+          <entry key="PHP" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="578" />
+          <entry key="html" value="580" />
           <entry key="php" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="578" />
+          <entry key="HTML" value="580" />
           <entry key="PHP" value="175" />
         </counts>
       </usages-collector>
@@ -56,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="56" column="158" lean-forward="true" selection-start-line="56" selection-start-column="158" selection-end-line="56" selection-end-column="158" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,16 +78,147 @@
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1521#7888#0" />
+                <element signature="e#1540#1753#0" />
+                <element signature="e#1835#2226#0" />
+                <element signature="e#2247#2331#0" />
+                <element signature="e#2312#4527#0" />
+                <element signature="e#2617#4443#0" />
+                <element signature="e#2772#4294#0" />
+                <element signature="e#4541#7100#0" />
+                <element signature="e#4851#7016#0" />
+                <element signature="e#5006#6867#0" />
+                <element signature="e#7114#7819#0" />
+                <element signature="e#7423#7735#0" />
+                <element signature="e#8177#8357#0" />
+                <element signature="e#8377#8468#0" />
+                <element signature="e#8487#8723#0" />
+                <element signature="e#8769#9507#0" />
+                <element signature="e#8899#9390#0" />
+                <element signature="e#9053#9234#0" />
+                <element signature="e#9848#11200#0" />
+                <element signature="e#9866#10046#0" />
+                <element signature="e#10066#10157#0" />
+                <element signature="e#10176#10412#0" />
+                <element signature="e#10472#11184#0" />
+                <element signature="e#10588#11079#0" />
+                <element signature="e#10742#10923#0" />
+                <element signature="e#11529#12880#0" />
+                <element signature="e#11547#11727#0" />
+                <element signature="e#11747#11838#0" />
+                <element signature="e#11857#12093#0" />
+                <element signature="e#12153#12864#0" />
+                <element signature="e#12269#12760#0" />
+                <element signature="e#12423#12604#0" />
+                <element signature="e#13207#14558#0" />
+                <element signature="e#13225#13405#0" />
+                <element signature="e#13425#13516#0" />
+                <element signature="e#13535#13771#0" />
+                <element signature="e#13831#14542#0" />
+                <element signature="e#13947#14438#0" />
+                <element signature="e#14101#14282#0" />
+                <element signature="e#14892#16245#0" />
+                <element signature="e#14910#15090#0" />
+                <element signature="e#15110#15201#0" />
+                <element signature="e#15220#15456#0" />
+                <element signature="e#15516#16229#0" />
+                <element signature="e#15632#16123#0" />
+                <element signature="e#15786#15967#0" />
+                <element signature="e#16575#17926#0" />
+                <element signature="e#16593#16773#0" />
+                <element signature="e#16793#16884#0" />
+                <element signature="e#16903#17139#0" />
+                <element signature="e#17199#17910#0" />
+                <element signature="e#17315#17806#0" />
+                <element signature="e#17469#17650#0" />
+                <element signature="e#18250#19600#0" />
+                <element signature="e#18268#18448#0" />
+                <element signature="e#18468#18559#0" />
+                <element signature="e#18578#18814#0" />
+                <element signature="e#18874#19584#0" />
+                <element signature="e#18990#19481#0" />
+                <element signature="e#19144#19325#0" />
+                <element signature="e#19922#21272#0" />
+                <element signature="e#19940#20120#0" />
+                <element signature="e#20140#20231#0" />
+                <element signature="e#20250#20486#0" />
+                <element signature="e#20546#21256#0" />
+                <element signature="e#20662#21153#0" />
+                <element signature="e#20816#20997#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhejiangsheng_all_point.php">
+        <entry file="file://$PROJECT_DIR$/hangzhou_qinianji_sanjipoint.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jinhua_8nianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jinhua_qinianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ningbo_8nianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ningbo_qinianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenzhou_8nianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wenzhou_qinianji_sanjipoint.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -100,10 +239,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hangzhou_qinianji_sanjipoint.php" />
-        <option value="$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php" />
         <option value="$PROJECT_DIR$/dao_003xlsx.php" />
         <option value="$PROJECT_DIR$/zhejiangsheng_all_point.php" />
+        <option value="$PROJECT_DIR$/hangzhou_qinianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/jinhua_8nianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/jinhua_qinianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/ningbo_8nianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/ningbo_qinianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/wenzhou_8nianji_sanjipoint.php" />
+        <option value="$PROJECT_DIR$/wenzhou_qinianji_sanjipoint.php" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -115,6 +260,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="668" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="983" />
@@ -179,12 +325,12 @@
       <workItem from="1556172279915" duration="6627000" />
       <workItem from="1556181366874" duration="764000" />
       <workItem from="1556266966925" duration="5153000" />
-      <workItem from="1556409359510" duration="1598000" />
+      <workItem from="1556409359510" duration="2706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14142000" />
+    <option name="totallyTimeSpent" value="15250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,10 +342,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="983" extended-state="0" />
+    <frame x="668" y="23" width="1680" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,7 +358,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17059484" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17059484" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -227,13 +373,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jinhua_8nianji_sanjipoint.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php">
+    <entry file="file://$PROJECT_DIR$/dao_003xlsx.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="491">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -244,17 +387,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao_003xlsx.php">
+    <entry file="file://$PROJECT_DIR$/hangzhou_8nianji_sanjipoint.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinhua_8nianji_sanjipoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinhua_qinianji_sanjipoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ningbo_8nianji_sanjipoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ningbo_qinianji_sanjipoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenzhou_8nianji_sanjipoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenzhou_qinianji_sanjipoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhejiangsheng_all_point.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="56" column="158" lean-forward="true" selection-start-line="56" selection-start-column="158" selection-end-line="56" selection-end-column="158" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -267,14 +459,75 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1521#7888#0" />
+            <element signature="e#1540#1753#0" />
+            <element signature="e#1835#2226#0" />
+            <element signature="e#2247#2331#0" />
+            <element signature="e#2312#4527#0" />
+            <element signature="e#2617#4443#0" />
+            <element signature="e#2772#4294#0" />
+            <element signature="e#4541#7100#0" />
+            <element signature="e#4851#7016#0" />
+            <element signature="e#5006#6867#0" />
+            <element signature="e#7114#7819#0" />
+            <element signature="e#7423#7735#0" />
+            <element signature="e#8177#8357#0" />
+            <element signature="e#8377#8468#0" />
+            <element signature="e#8487#8723#0" />
+            <element signature="e#8769#9507#0" />
+            <element signature="e#8899#9390#0" />
+            <element signature="e#9053#9234#0" />
+            <element signature="e#9848#11200#0" />
+            <element signature="e#9866#10046#0" />
+            <element signature="e#10066#10157#0" />
+            <element signature="e#10176#10412#0" />
+            <element signature="e#10472#11184#0" />
+            <element signature="e#10588#11079#0" />
+            <element signature="e#10742#10923#0" />
+            <element signature="e#11529#12880#0" />
+            <element signature="e#11547#11727#0" />
+            <element signature="e#11747#11838#0" />
+            <element signature="e#11857#12093#0" />
+            <element signature="e#12153#12864#0" />
+            <element signature="e#12269#12760#0" />
+            <element signature="e#12423#12604#0" />
+            <element signature="e#13207#14558#0" />
+            <element signature="e#13225#13405#0" />
+            <element signature="e#13425#13516#0" />
+            <element signature="e#13535#13771#0" />
+            <element signature="e#13831#14542#0" />
+            <element signature="e#13947#14438#0" />
+            <element signature="e#14101#14282#0" />
+            <element signature="e#14892#16245#0" />
+            <element signature="e#14910#15090#0" />
+            <element signature="e#15110#15201#0" />
+            <element signature="e#15220#15456#0" />
+            <element signature="e#15516#16229#0" />
+            <element signature="e#15632#16123#0" />
+            <element signature="e#15786#15967#0" />
+            <element signature="e#16575#17926#0" />
+            <element signature="e#16593#16773#0" />
+            <element signature="e#16793#16884#0" />
+            <element signature="e#16903#17139#0" />
+            <element signature="e#17199#17910#0" />
+            <element signature="e#17315#17806#0" />
+            <element signature="e#17469#17650#0" />
+            <element signature="e#18250#19600#0" />
+            <element signature="e#18268#18448#0" />
+            <element signature="e#18468#18559#0" />
+            <element signature="e#18578#18814#0" />
+            <element signature="e#18874#19584#0" />
+            <element signature="e#18990#19481#0" />
+            <element signature="e#19144#19325#0" />
+            <element signature="e#19922#21272#0" />
+            <element signature="e#19940#20120#0" />
+            <element signature="e#20140#20231#0" />
+            <element signature="e#20250#20486#0" />
+            <element signature="e#20546#21256#0" />
+            <element signature="e#20662#21153#0" />
+            <element signature="e#20816#20997#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhejiangsheng_all_point.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>

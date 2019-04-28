@@ -24,12 +24,12 @@ $connect->close();
 
 $rrrr = array();
 for($i = 0; $i < count($result_san); $i++){
-    if((float)$result_san[$i][2] > 0){
+//    if((float)$result_san[$i][2] > 0){
         $t = array();
         $t['name'] = $result_san[$i][1];
         $t['value'] = $result_san[$i][2];
         array_push($rrrr, $t);
-    }
+//    }
 }
 
 
