@@ -4,7 +4,6 @@
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhejiangsheng_all_point.php" beforeDir="false" afterPath="$PROJECT_DIR$/zhejiangsheng_all_point.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +18,11 @@
     <session id="-637920325">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="571" />
+          <entry key="html" value="578" />
           <entry key="php" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="571" />
+          <entry key="HTML" value="578" />
           <entry key="PHP" value="175" />
         </counts>
       </usages-collector>
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+            <state relative-caret-position="349">
+              <caret line="56" column="158" lean-forward="true" selection-start-line="56" selection-start-column="158" selection-end-line="56" selection-end-column="158" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -71,25 +70,6 @@
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#1549#1762#0" />
-                <element signature="e#1791#2182#0" />
-                <element signature="e#2780#3832#0" />
-                <element signature="e#19642#19712#0" />
-                <element signature="e#19758#21112#0" />
-                <element signature="e#21335#21403#0" />
-                <element signature="e#21447#22799#0" />
-                <element signature="e#23018#23085#0" />
-                <element signature="e#23128#24479#0" />
-                <element signature="e#24696#24763#0" />
-                <element signature="e#24806#26157#0" />
-                <element signature="e#26377#26446#0" />
-                <element signature="e#26491#27844#0" />
-                <element signature="e#28064#28131#0" />
-                <element signature="e#28174#29525#0" />
-                <element signature="e#29741#29807#0" />
-                <element signature="e#29849#31199#0" />
-                <element signature="e#31413#31479#0" />
-                <element signature="e#31521#32871#0" />
               </folding>
             </state>
           </provider>
@@ -98,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhejiangsheng_all_point.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="1245">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -134,8 +114,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="983" />
@@ -148,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +139,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,12 +178,13 @@
       <updated>1556172278702</updated>
       <workItem from="1556172279915" duration="6627000" />
       <workItem from="1556181366874" duration="764000" />
-      <workItem from="1556266966925" duration="4075000" />
+      <workItem from="1556266966925" duration="5153000" />
+      <workItem from="1556409359510" duration="1598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11466000" />
+    <option name="totallyTimeSpent" value="14142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,10 +196,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="983" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20757021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21001221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,7 +212,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26823795" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17059484" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -271,17 +251,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhejiangsheng_all_point.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+        <state relative-caret-position="349">
+          <caret line="56" column="158" lean-forward="true" selection-start-line="56" selection-start-column="158" selection-end-line="56" selection-end-column="158" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -294,26 +267,14 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1549#1762#0" />
-            <element signature="e#1791#2182#0" />
-            <element signature="e#2780#3832#0" />
-            <element signature="e#19642#19712#0" />
-            <element signature="e#19758#21112#0" />
-            <element signature="e#21335#21403#0" />
-            <element signature="e#21447#22799#0" />
-            <element signature="e#23018#23085#0" />
-            <element signature="e#23128#24479#0" />
-            <element signature="e#24696#24763#0" />
-            <element signature="e#24806#26157#0" />
-            <element signature="e#26377#26446#0" />
-            <element signature="e#26491#27844#0" />
-            <element signature="e#28064#28131#0" />
-            <element signature="e#28174#29525#0" />
-            <element signature="e#29741#29807#0" />
-            <element signature="e#29849#31199#0" />
-            <element signature="e#31413#31479#0" />
-            <element signature="e#31521#32871#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhejiangsheng_all_point.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
