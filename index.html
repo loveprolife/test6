@@ -14,7 +14,7 @@
     <div id="chartmain_hangzhou_qinianji_sanjipoint" style="width: 670px; height: 530px;"></div>
     <div id="chartmain_wenzhou_qinianji_sanjipoint" style="width: 670px; height: 530px;"></div>
     <div id="chartmain_jinhua_qinianji_sanjipoint" style="width: 670px; height: 530px;"></div>
-    <div id="chartmain_ningbo_qinianji_sanjipoint" style="width: 670px; height: 530px;"></div>
+    <div id="chartmain_ningbo_qinianji_sanjipoint" style="width: 670px; height: 830px;"></div>
 </div>
 
 
@@ -25,14 +25,13 @@
 
 
 
-
-
 <div style="float:left;">
     <div id="chartmain_hangzhou_8nianji_sanjipoint" style="width: 670px; height: 530px;"></div>
     <div id="chartmain_wenzhou_8nianji_sanjipoint" style="width: 670px; height: 530px;"></div>
     <div id="chartmain_jinhua_8nianji_sanjipoint" style="width: 670px; height: 530px;"></div>
-    <div id="chartmain_ningbo_8nianji_sanjipoint" style="width: 670px; height: 530px;"></div>
+    <div id="chartmain_ningbo_8nianji_sanjipoint" style="width: 670px; height: 830px;"></div>
 </div>
+
 
 
 <script type="text/javascript">
@@ -206,6 +205,11 @@
     echarts.init(document.getElementById('chartmain_zhejiangsheng_all_point')).setOption(zhejiangsheng_all_point);
 
 
+    color_qinianji_sanjipoint = [
+        '#2fc7c9', '#b6a2de', '#5ab1ef', '#feb980', '#d87a80',
+        '#8d98b3', '#e5cf10', '#97b551', '#96706d', '#dc69aa',
+        '#07a2a4', '#9a7fd1', '#588dd5', '#f5994d', '#bf5050',
+        '#dc69aa', '#c9ab00', '#7db00c', '#c9ab00', '#c14089'];
 
     $.get("http://localhost:8080/hangzhou_qinianji_sanjipoint.php",function(data,status){
         data_hang_zhou_qinianji_sanjipoint = JSON.parse(data);
@@ -234,7 +238,7 @@
             }
         },
         calculable : true,
-        color:['#36a2da', '#2fc4e9', '#68dfe3', '#a0e6b7', '#ffdb5c', '#ff9f7f', '#fa7395', '#e062ae', '#e690d0', '#e8bbf4', '#9e96f3', '#8278e9', '#96bfff'],
+        color: color_qinianji_sanjipoint,
         series : [
             {
                 name:'',
@@ -288,6 +292,7 @@
             }
         },
         calculable : true,
+        color: color_qinianji_sanjipoint,
         series : [
             {
                 name:'',
@@ -341,6 +346,7 @@
             }
         },
         calculable : true,
+        color: color_qinianji_sanjipoint,
         series : [
             {
                 name:'',
@@ -367,6 +373,10 @@
     };
     echarts.init(document.getElementById('chartmain_jinhua_qinianji_sanjipoint')).setOption(option_jinhua_qinianji_sanjipoint);
 
+
+    $.get("http://localhost:8080/legend_qinianji.php", function(data,status){
+        legend_qinianji = JSON.parse(data);
+    });
     $.get("http://localhost:8080/ningbo_qinianji_sanjipoint.php",function(data,status){
         data_ningbo_qinianji_sanjipoint = JSON.parse(data);
     });
@@ -394,6 +404,13 @@
             }
         },
         calculable : true,
+        color: color_qinianji_sanjipoint,
+        legend: {
+            orient: 'horizontal',
+            x: 'center',
+            y: 'bottom',
+            data: legend_qinianji
+        },
         series : [
             {
                 name:'',
@@ -422,6 +439,11 @@
 
 
 
+    color_banianji_sanjipoint = [
+        '#c1222b', '#27727c', '#fcce11', '#e87c25', '#b5c334',
+        '#fcce11', '#9bca63', '#fad85f', '#f3a43b', '#60c0dd',
+        '#d7504b', '#c7e579', '#f4e003', '#f0805b', '#26c0c0'];
+
     $.get("http://localhost:8080/hangzhou_8nianji_sanjipoint.php",function(data,status){
         data_hang_zhou_8nianji_sanjipoint = JSON.parse(data);
     });
@@ -449,6 +471,7 @@
             }
         },
         calculable : true,
+        color: color_banianji_sanjipoint,
         series : [
             {
                 name:'',
@@ -502,6 +525,7 @@
             }
         },
         calculable : true,
+        color: color_banianji_sanjipoint,
         series : [
             {
                 name:'',
@@ -555,6 +579,7 @@
             }
         },
         calculable : true,
+        color: color_banianji_sanjipoint,
         series : [
             {
                 name:'',
@@ -581,6 +606,9 @@
     };
     echarts.init(document.getElementById('chartmain_jinhua_8nianji_sanjipoint')).setOption(option_jinhua_8nianji_sanjipoint);
 
+    $.get("http://localhost:8080/legend_8nianji.php",function(data,status){
+        legend_8nianji = JSON.parse(data);
+    });
     $.get("http://localhost:8080/ningbo_8nianji_sanjipoint.php",function(data,status){
         data_ningbo_8nianji_sanjipoint = JSON.parse(data);
     });
@@ -608,6 +636,13 @@
             }
         },
         calculable : true,
+        color: color_banianji_sanjipoint,
+        legend: {
+            orient: 'horizontal',
+            x: 'center',
+            y: 'bottom',
+            data: legend_8nianji
+        },
         series : [
             {
                 name:'',
