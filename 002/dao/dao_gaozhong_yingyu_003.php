@@ -28,12 +28,12 @@ foreach ($excel->getWorksheetIterator() as $sheet){
     }
 }
 
-//$connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
-//mysqli_query($connect,'set names utf8');
-//mysqli_query($connect, "truncate gao_zhong_yingyu_003");
+$connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
+mysqli_query($connect,'set names utf8');
+mysqli_query($connect, "truncate gao_zhong_yingyu_003");
 for($i = 0; $i < count($ttt); $i++){
     $sql = 'INSERT INTO gao_zhong_yingyu_003 SET yi_name = "'.$ttt[$i][0].'", er_name = "'.$ttt[$i][0].'", san_name = "'.$ttt[$i][0].'", si_name = "'.$ttt[$i][2].'", zhi = "'.$ttt[$i][43].'"';
-    print $sql . "\r\n";
-//    $result = mysqli_query($connect,$sql);
+//    print $sql . "\r\n";
+    $result = mysqli_query($connect,$sql);
 }
-//mysqli_close($connect);
+mysqli_close($connect);
