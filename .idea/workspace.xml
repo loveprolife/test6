@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html" beforeDir="false" afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,32 +35,53 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="php" value="84" />
+          <entry key="html" value="5" />
+          <entry key="php" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="PHP" value="84" />
+          <entry key="HTML" value="5" />
+          <entry key="PHP" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="867" />
-          <entry key="php" value="674" />
+          <entry key="html" value="889" />
+          <entry key="php" value="768" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="867" />
-          <entry key="PHP" value="674" />
+          <entry key="HTML" value="889" />
+          <entry key="PHP" value="768" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#890#7363#0" />
+                <element signature="e#7494#7747#0" />
+                <element signature="e#8073#9616#0" />
+                <element signature="e#9747#9937#0" />
+                <element signature="e#10262#11805#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -103,6 +129,12 @@
         <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_004.php" />
         <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php" />
         <option value="$PROJECT_DIR$/002/gaozhong_yuwen.html" />
+        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html" />
+        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php" />
+        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002.php" />
+        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php" />
+        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003.php" />
+        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php" />
       </list>
     </option>
   </component>
@@ -196,12 +228,12 @@
       <workItem from="1556409359510" duration="8349000" />
       <workItem from="1556435985328" duration="1881000" />
       <workItem from="1556448185558" duration="1124000" />
-      <workItem from="1557034806188" duration="14945000" />
+      <workItem from="1557034806188" duration="15581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38843000" />
+    <option name="totallyTimeSpent" value="39479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,6 +246,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -496,6 +529,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -505,39 +573,12 @@
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1428#1487#0" />
-            <element signature="e#1520#7993#0" />
-            <element signature="e#1539#1752#0" />
-            <element signature="e#1940#2331#0" />
-            <element signature="e#2352#2436#0" />
-            <element signature="e#2456#7987#0" />
-            <element signature="e#2930#4452#0" />
-            <element signature="e#5164#7025#0" />
-            <element signature="e#8144#8397#0" />
-            <element signature="e#13662#13713#0" />
-            <element signature="e#13802#13869#0" />
-            <element signature="e#13912#15453#0" />
-            <element signature="e#13930#14110#0" />
-            <element signature="e#14240#14476#0" />
-            <element signature="e#14563#14692#0" />
-            <element signature="e#14996#15177#0" />
-            <element signature="e#15618#15808#0" />
-            <element signature="e#21052#21102#0" />
-            <element signature="e#21190#21256#0" />
-            <element signature="e#21298#22837#0" />
-            <element signature="e#21316#21496#0" />
-            <element signature="e#21516#21607#0" />
-            <element signature="e#21626#21862#0" />
-            <element signature="e#21949#22077#0" />
-            <element signature="e#22381#22562#0" />
+            <element signature="e#890#7363#0" />
+            <element signature="e#7494#7747#0" />
+            <element signature="e#8073#9616#0" />
+            <element signature="e#9747#9937#0" />
+            <element signature="e#10262#11805#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>

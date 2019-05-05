@@ -5,7 +5,7 @@ header("Access-Control-Allow-Origin: *");
 $connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
 mysqli_query($connect,'set names utf8');
 
-$sql_san = 'SELECT id, san_name, SUM(zhi_ningbo) FROM test002 GROUP BY san_name ORDER BY id ASC';
+$sql_san = 'SELECT id, san_name, SUM(zhi) FROM gao_zhong_yuwen_002 GROUP BY san_name ORDER BY id ASC';
 $result_san = mysqli_query($connect, $sql_san)->fetch_all();
 
 $connect->close();

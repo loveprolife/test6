@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script type="text/javascript" src="echarts.js"></script>
+    <script type="text/javascript" src="../echarts.js"></script>
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body style="width: 3150px; height: 1800px">
@@ -33,7 +33,7 @@
     $.ajaxSettings.async = false;
 
 
-    $.get("http://localhost:8080/002/gaozhong_yuwen_001.php",function(data,status){
+    $.get("http://localhost:8080/002/gaozhong_yuwen/gaozhong_yuwen_001.php",function(data,status){
         gaozhong_yuwen_001_back = JSON.parse(data);
     });
     gaozhong_yuwen_001 = {
@@ -204,10 +204,10 @@
         '#07a2a4', '#9a7fd1', '#588dd5', '#f5994d', '#bf5050',
         '#dc69aa', '#c9ab00', '#7db00c', '#c9ab00', '#c14089'];
 
-    $.get("http://localhost:8080/002/gaozhong_yuwen_002_legend.php", function(data,status){
+    $.get("http://localhost:8080/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php", function(data,status){
         gaozhong_yuwen_002_legend = JSON.parse(data);
     });
-    $.get("http://localhost:8080/002/gaozhong_yuwen_002.php",function(data,status){
+    $.get("http://localhost:8080/002/gaozhong_yuwen/gaozhong_yuwen_002.php",function(data,status){
         gaozhong_yuwen_002_back = JSON.parse(data);
     });
     gaozhong_yuwen_002 = {
@@ -273,10 +273,10 @@
         '#fcce11', '#9bca63', '#fad85f', '#f3a43b', '#60c0dd',
         '#d7504b', '#c7e579', '#f4e003', '#f0805b', '#26c0c0'];
 
-    $.get("http://localhost:8080/002/gaozhong_yuwen_003_legend.php",function(data,status){
+    $.get("http://localhost:8080/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php",function(data,status){
         gaozhong_yuwen_003_legend = JSON.parse(data);
     });
-    $.get("http://localhost:8080/002/gaozhong_yuwen_003.php",function(data,status){
+    $.get("http://localhost:8080/002/gaozhong_yuwen/gaozhong_yuwen_003.php",function(data,status){
         gaozhong_yuwen_003_back = JSON.parse(data);
     });
     gaozhong_yuwen_003 = {
