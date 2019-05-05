@@ -30,7 +30,7 @@ foreach ($excel->getWorksheetIterator() as $sheet){
 
 $connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
 mysqli_query($connect,'set names utf8');
-mysqli_query($connect, "truncate test001");
+mysqli_query($connect, "truncate gao_zhong_yuwen_001");
 for($i = 0; $i < count($ttt); $i++){
     $sql = 'INSERT INTO gao_zhong_yuwen_001 SET yi_name = "'.$ttt[$i][3].'", er_name = "'.$ttt[$i][5].'", san_name = "'.$ttt[$i][7].'", si_name = "'.$ttt[$i][9].'", zhi = "'.$ttt[$i][111].'"';
 //    print $sql . "\r\n";
