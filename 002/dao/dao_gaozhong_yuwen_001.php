@@ -3,7 +3,7 @@ ini_set('memory_limit','1024M');
 require_once  "PHPExcel-1.8/Classes/PHPExcel/IOFactory.php";
 
 //需要读取的execl文件
-$filename = '001.xlsx';
+$filename = './datu/gaozhong_yuwen/001.xlsx';
 
 //加载excel文件
 $excel = \PHPExcel_IOFactory::load($filename);
@@ -15,7 +15,8 @@ foreach ($excel->getWorksheetIterator() as $sheet){
         $tmp = array();
         $tag = 0;
         foreach ($row->getCellIterator() as $cell){
-            if($tag == 205){
+//            print $tag . "||" . $cell->getValue() . "\r\n";
+            if($tag == 111){
                 $data = $cell->getCalculatedValue();
             }else{
                 $data = $cell->getValue();
@@ -31,9 +32,8 @@ $connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306
 mysqli_query($connect,'set names utf8');
 mysqli_query($connect, "truncate test001");
 for($i = 0; $i < count($ttt); $i++){
-    $sql = 'INSERT INTO test001 SET yi_name = "'.$ttt[$i][3].'", er_name = "'.$ttt[$i][5].'", san_name = "'.$ttt[$i][7].'", si_name = "'.$ttt[$i][9].'", zhi = "'.$ttt[$i][205].'"';
-    $result = mysqli_query($connect,$sql);
+    $sql = 'INSERT INTO gao_zhong_yuwen_001 SET yi_name = "'.$ttt[$i][3].'", er_name = "'.$ttt[$i][5].'", san_name = "'.$ttt[$i][7].'", si_name = "'.$ttt[$i][9].'", zhi = "'.$ttt[$i][111].'"';
+//    print $sql . "\r\n";
+        $result = mysqli_query($connect,$sql);
 }
 mysqli_close($connect);
-
-?>
