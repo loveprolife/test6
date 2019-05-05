@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_004.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_004.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/dao/xiaotu/chuzhong_kexue/八下期中/004.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/002/dao/xiaotu/chuzhong_kexue/八下期中/004.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/dao/xiaotu/chuzhong_kexue/八下期中/005.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/002/dao/xiaotu/chuzhong_kexue/八下期中/005.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,17 +54,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -148,36 +135,6 @@
               <item name="test6" type="462c0819:PsiDirectoryNode" />
               <item name="002" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test6" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test6" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaotu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test6" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaotu" type="462c0819:PsiDirectoryNode" />
-              <item name="chuzhong_kexue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test6" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaotu" type="462c0819:PsiDirectoryNode" />
-              <item name="chuzhong_kexue" type="462c0819:PsiDirectoryNode" />
-              <item name="八下期中" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -192,8 +149,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/002/dao" />
       <recent name="$PROJECT_DIR$/002" />
+      <recent name="$PROJECT_DIR$/002/dao" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -230,12 +187,12 @@
       <workItem from="1556409359510" duration="8349000" />
       <workItem from="1556435985328" duration="1881000" />
       <workItem from="1556448185558" duration="1124000" />
-      <workItem from="1557034806188" duration="13390000" />
+      <workItem from="1557034806188" duration="13552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37288000" />
+    <option name="totallyTimeSpent" value="37450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,9 +205,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="984" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -263,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28699553" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28699553" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -526,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="735">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
