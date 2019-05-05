@@ -5,7 +5,7 @@ header("Access-Control-Allow-Origin: *");
 $connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
 mysqli_query($connect,'set names utf8');
 
-$sql_yi = 'SELECT A.id, A.yi_name, SUM(zhi) FROM (SELECT * FROM gao_zhong_yingyu_001 WHERE is_show = 1 ORDER BY id ASC) AS A GROUP BY A.yi_name ORDER BY A.id ASC';
+$sql_yi = 'SELECT A.id, A.yi_name, SUM(zhi) FROM (SELECT * FROM gao_zhong_shuxue_001 WHERE is_show = 1 ORDER BY id ASC) AS A GROUP BY A.yi_name ORDER BY A.id ASC';
 $result_yi = mysqli_query($connect, $sql_yi)->fetch_all();
 
 
@@ -70,7 +70,7 @@ for ($i = 0; $i < count($result_yi); $i++){
 }
 
 for ($i = 0; $i < count($rrr['series'][0]['data']); $i++){
-    $sql_er = "SELECT id, er_name, SUM(zhi) FROM gao_zhong_yingyu_001 WHERE is_show = 1 AND yi_name ='".$rrr['series'][0]['data'][$i]['name']."' GROUP BY er_name ORDER BY id ASC";
+    $sql_er = "SELECT id, er_name, SUM(zhi) FROM gao_zhong_shuxue_001 WHERE is_show = 1 AND yi_name ='".$rrr['series'][0]['data'][$i]['name']."' GROUP BY er_name ORDER BY id ASC";
     $result_er = mysqli_query($connect, $sql_er)->fetch_all();
     for ($j = 0; $j < count($result_er); $j++){
         if((float)$result_er[$j]['2'] > 0){
@@ -83,7 +83,7 @@ for ($i = 0; $i < count($rrr['series'][0]['data']); $i++){
 }
 
 for ($i = 0; $i < count($rrr['series'][1]['data']); $i++){
-    $sql_san = "SELECT id, san_name, SUM(zhi) FROM gao_zhong_yingyu_001 WHERE is_show = 1 AND er_name ='".$rrr['series'][1]['data'][$i]['name']."' GROUP BY san_name ORDER BY id ASC";
+    $sql_san = "SELECT id, san_name, SUM(zhi) FROM gao_zhong_shuxue_001 WHERE is_show = 1 AND er_name ='".$rrr['series'][1]['data'][$i]['name']."' GROUP BY san_name ORDER BY id ASC";
     $result_san = mysqli_query($connect, $sql_san)->fetch_all();
     for ($j = 0; $j < count($result_san); $j++){
         if((float)$result_san[$j]['2'] > 0){
