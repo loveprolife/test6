@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" beforeDir="false" afterPath="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" beforeDir="false" afterPath="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html" beforeDir="false" afterPath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,27 +30,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="34" />
+          <entry key="html" value="37" />
           <entry key="js" value="1" />
           <entry key="php" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="34" />
+          <entry key="HTML" value="37" />
           <entry key="JavaScript" value="1" />
           <entry key="PHP" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2184" />
+          <entry key="html" value="2196" />
           <entry key="php" value="1148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2184" />
+          <entry key="HTML" value="2196" />
           <entry key="PHP" value="1148" />
         </counts>
       </usages-collector>
@@ -61,25 +62,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html">
+        <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#1346#1405#0" />
+                <element signature="e#1452#1673#0" />
               </folding>
             </state>
           </provider>
@@ -144,8 +142,6 @@
         <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_legend.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_005_ningbo.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_005_legend.php" />
-        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html" />
         <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html" />
         <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu.html" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/testtest.php" />
@@ -158,6 +154,8 @@
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue_003.php" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue.html" />
         <option value="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" />
+        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" />
       </list>
     </option>
   </component>
@@ -198,7 +196,7 @@
               <item name="test6" type="b2602c69:ProjectViewProjectNode" />
               <item name="test6" type="462c0819:PsiDirectoryNode" />
               <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="chuzhong_yuwen" type="462c0819:PsiDirectoryNode" />
+              <item name="chuzhong_kexue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,12 +253,12 @@
       <workItem from="1556435985328" duration="1881000" />
       <workItem from="1556448185558" duration="1124000" />
       <workItem from="1557034806188" duration="20250000" />
-      <workItem from="1557107843757" duration="17440000" />
+      <workItem from="1557107843757" duration="18106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61588000" />
+    <option name="totallyTimeSpent" value="62254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,48 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="671" lean-forward="true" selection-start-line="671" selection-end-line="671" />
-          <folding>
-            <element signature="e#1357#1417#0" />
-            <element signature="e#1446#7930#0" />
-            <element signature="e#8063#8316#0" />
-            <element signature="e#8427#8496#0" />
-            <element signature="e#8534#9930#0" />
-            <element signature="e#10155#10223#0" />
-            <element signature="e#10260#11655#0" />
-            <element signature="e#11877#11944#0" />
-            <element signature="e#11980#13374#0" />
-            <element signature="e#13596#13658#0" />
-            <element signature="e#13767#13834#0" />
-            <element signature="e#13870#15422#0" />
-            <element signature="e#15570#15760#0" />
-            <element signature="e#15871#15940#0" />
-            <element signature="e#15978#17374#0" />
-            <element signature="e#17599#17667#0" />
-            <element signature="e#17704#19099#0" />
-            <element signature="e#19321#19388#0" />
-            <element signature="e#19424#20818#0" />
-            <element signature="e#21038#21100#0" />
-            <element signature="e#21209#21276#0" />
-            <element signature="e#21312#22864#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="632" column="32" selection-start-line="632" selection-start-column="32" selection-end-line="632" selection-end-column="32" />
-          <folding>
-            <element signature="e#1346#1405#0" />
-            <element signature="e#1452#1673#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -724,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -741,6 +697,49 @@
             <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#1346#1405#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1357#1417#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1346#1405#0" />
+            <element signature="e#1452#1673#0" />
           </folding>
         </state>
       </provider>
