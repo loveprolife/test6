@@ -10,20 +10,15 @@
 
 
 
-<div style="float: left">
-    <div id="gaozhong_yingyu_002" style="width: 670px; height: 330px;"></div>
-</div>
-
-
-
-<div style="padding-top: 0px; float: left">
-    <div id="gaozhong_yingyu_001" style="width: 1800px; height: 1800px;"></div>
+<div style="padding-top: 0; float: left">
+    <div id="gaozhong_yingyu_001" style="width: 1900px; height: 1800px;"></div>
 </div>
 
 
 
 <div style="float:left;">
-    <div id="gaozhong_yingyu_003" style="width: 670px; height: 330px;"></div>
+    <div id="gaozhong_yingyu_002" style="width: 670px; height: 830px;"></div>
+    <div id="gaozhong_yingyu_003" style="width: 670px; height: 830px;"></div>
 </div>
 
 
@@ -132,24 +127,14 @@
                         formatter(v) {
                             // let text = v.percent+'%' + v.name;
                             let text = v.name;
-                            return text;
-                            if(v.name == '二元一次方程(组)'){
-                                return text;
+                            if(v.name == '题型'){
+                                return text = ""
                             }
-                            if(v.name == '一元二次方程'){
-                                return text;
+                            if(v.name == '完形填空'){
+                                return text = `${text.slice(0,2)}\n${text.slice(2)}`
                             }
-                            if(v.name == '一元一次不等式(组)'){
-                                return text;
-                            }
-                            if(v.name == '一元一次方程'){
-                                return text;
-                            }
-                            if(v.name == '投影与视图'){
-                                return text;
-                            }
-                            if(v.name == '解直角三角形'){
-                                return text;
+                            if(v.name == '阅读理解'){
+                                return text = `${text.slice(0,2)}\n${text.slice(2)}`
                             }
                             if(text.length <= 8)
                             {
