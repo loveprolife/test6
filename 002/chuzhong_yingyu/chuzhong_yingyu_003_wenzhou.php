@@ -5,7 +5,7 @@ header("Access-Control-Allow-Origin: *");
 $connect = mysqli_connect('10.2.1.13','wenba','szc0219','oneone_recommend','3306');
 mysqli_query($connect,'set names utf8');
 
-$sql_san = 'SELECT id, san_name, SUM(zhi_ningbo) FROM chuzhong_yuwen_002 GROUP BY san_name ORDER BY id ASC';
+$sql_san = 'SELECT id, san_name, SUM(zhi_wenzhou) FROM chuzhong_yingyu_003 GROUP BY san_name ORDER BY id ASC';
 $result_san = mysqli_query($connect, $sql_san)->fetch_all();
 
 $connect->close();
@@ -15,7 +15,7 @@ for($i = 0; $i < count($result_san); $i++){
 //    if((float)$result_san[$i][2] > 0){
     $t = array();
     $t['name'] = $result_san[$i][1];
-//    $t['value'] = $result_san[$i][2];
+    $t['value'] = $result_san[$i][2];
     array_push($rrrr, $t);
 //    }
 }
