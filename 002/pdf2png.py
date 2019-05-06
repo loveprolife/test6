@@ -20,3 +20,6 @@ images[0].save('/Users/wangpeng/Downloads/数据可视化/002/gaozhong_yingyu.pn
 
 images = convert_from_path('/Users/wangpeng/Downloads/数据可视化/002/gaozhong_yuwen.pdf', dpi=900)
 images[0].save('/Users/wangpeng/Downloads/数据可视化/002/gaozhong_yuwen.png')
+
+
+
