@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../echarts.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body style="width: 3150px; height: 1800px">
+
+
+
+<div style="float: left">
+    <div id="chuzhong_kexue_002_hangzhou" style="width: 670px; height: 330px;"></div>
+    <div id="chuzhong_kexue_002_wenzhou" style="width: 670px; height: 330px;"></div>
+    <div id="chuzhong_kexue_002_jinhua" style="width: 670px; height: 330px;"></div>
+    <div id="chuzhong_kexue_003_ningbo" style="width: 670px; height: 630px;"></div>
+</div>
+
+
+
+<div style="padding-top: 0px; float: left">
+    <div id="chuzhong_kexue_001" style="width: 1800px; height: 1800px;"></div>
+</div>
+
+
+
+<div style="float:left;">
+    <div id="chuzhong_kexue_004_hangzhou" style="width: 670px; height: 330px;"></div>
+    <div id="chuzhong_kexue_004_wenzhou" style="width: 670px; height: 330px;"></div>
+    <div id="chuzhong_kexue_004_jinhua" style="width: 670px; height: 330px;"></div>
+    <div id="chuzhong_kexue_005_ningbo" style="width: 670px; height: 630px;"></div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    $.ajaxSettings.async = false;
+
+
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_001.php",function(data,status){
+        chuzhong_kexue_001_back = JSON.parse(data);
+    });
+    chuzhong_kexue_001 = {
+        "title": {
+            "text": "浙江省四市中考知识点分析汇总",
+            "subtext": "",
+            "left": "center",
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 30
+            }
+        },
+        color:['#36a2da', '#2fc4e9', '#68dfe3', '#a0e6b7', '#ffdb5c', '#ff9f7f', '#fa7395', '#e062ae', '#e690d0', '#e8bbf4', '#9e96f3', '#8278e9', '#96bfff'],
+        "backgroundColor": {
+            "x": 0,
+            "y": 0,
+            "r": 1,
+            "type": "radial",
+            "global": false,
+            "colorStops": [
+                {
+                    "offset": 0,
+                    "color": "#ffffff"
+                },
+                {
+                    "offset": "1",
+                    "color": "#ffffff"
+                }
+            ]
+        },
+        "tooltip": {
+            "trigger": "item",
+            "formatter": "{a} {b}:({d}%)"
+        },
+        "series": [
+            {
+                "name": "一级指标",
+                "type": "pie",
+                // "minAngle": 2,
+                "avoidLabelOverlap": true,
+                "center": ['50%', '50%'],
+                "radius": [
+                    0,
+                    "26%"
+                ],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "inside",
+                        formatter(v) {
+                            // let text = v.percent+'%' + v.name;
+                            let text = v.name;
+                            return text;
+                            if(v.name == '统计与概率'){
+                                return text;
+                                return text = `${text.slice(0,4)}\n${text.slice(4)}`
+                            }
+                            if(v.name == '方程(组)与不等式(组)'){
+                                return text;
+                                return text = `${text.slice(0,9)}\n${text.slice(9)}`
+                            }
+                            if(text.length <= 8)
+                            {
+                                return text;
+                            }else if(text.length > 8 && text.length <= 16){
+                                return text = `${text.slice(0,8)}\n${text.slice(8)}`
+                            }else if(text.length > 16 && text.length <= 24){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16)}`
+                            }else if(text.length > 24 && text.length <= 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24)}`
+                            }else if(text.length > 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24,30)}\n${text.slice(30)}`
+                            }
+                        },
+                        "textStyle": {
+                            "fontSize": 20
+                        }
+                    }
+                },
+                "data": chuzhong_kexue_001_back['series'][0]['data']
+            },
+            {
+                "name": "二级指标",
+                "type": "pie",
+                // "minAngle": 10,
+                "avoidLabelOverlap": true,
+                "center": ['50%', '50%'],
+                "radius": [
+                    "27%",
+                    "59%"
+                ],
+                "label": {
+                    "normal": {
+                        "show": true,
+                        "position": "inside",
+                        formatter(v) {
+                            // let text = v.percent+'%' + v.name;
+                            let text = v.name;
+                            return text;
+                            if(v.name == '二元一次方程(组)'){
+                                return text;
+                            }
+                            if(v.name == '一元二次方程'){
+                                return text;
+                            }
+                            if(v.name == '一元一次不等式(组)'){
+                                return text;
+                            }
+                            if(v.name == '一元一次方程'){
+                                return text;
+                            }
+                            if(v.name == '投影与视图'){
+                                return text;
+                            }
+                            if(v.name == '解直角三角形'){
+                                return text;
+                            }
+                            if(text.length <= 8)
+                            {
+                                return text;
+                            }else if(text.length > 8 && text.length <= 16){
+                                return text = `${text.slice(0,8)}\n${text.slice(8)}`
+                            }else if(text.length > 16 && text.length <= 24){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16)}`
+                            }else if(text.length > 24 && text.length <= 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24)}`
+                            }else if(text.length > 30){
+                                return text = `${text.slice(0,8)}\n${text.slice(8,16)}\n${text.slice(16,24)}\n${text.slice(24,30)}\n${text.slice(30)}`
+                            }
+                        },
+                        "textStyle": {
+                            "fontSize": 20
+                        }
+                    }
+                },
+                "data": chuzhong_kexue_001_back['series'][1]['data']
+            },
+            {
+                "name": "三级指标",
+                "type": "pie",
+                // "minAngle": 2,
+                "avoidLabelOverlap": true,
+                "center": ['50%', '50%'],
+                "radius": [
+                    "60%",
+                    "70%"
+                ],
+                "label": {
+                    "normal": {
+                        "position": "outer",
+                        //"formatter": "{b}{d}%",
+                        "formatter": "{b}",
+                        "textStyle": {
+                            "fontSize": 20
+                        }
+                    }
+                },
+                "data": chuzhong_kexue_001_back['series'][2]['data']
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_001')).setOption(chuzhong_kexue_001);
+
+
+    color_qinianji_sanjipoint = [
+        '#2fc7c9', '#b6a2de', '#5ab1ef', '#feb980', '#d87a80',
+        '#8d98b3', '#e5cf10', '#97b551', '#96706d', '#dc69aa',
+        '#07a2a4', '#9a7fd1', '#588dd5', '#f5994d', '#bf5050',
+        '#dc69aa', '#c9ab00', '#7db00c', '#c9ab00', '#c14089'];
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_002_hangzhou.php",function(data,status){
+        chuzhong_kexue_002_hangzhou_back = JSON.parse(data);
+    });
+    chuzhong_kexue_002_hangzhou = {
+        title : {
+            text: '杭州市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_qinianji_sanjipoint,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_002_hangzhou_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_002_hangzhou')).setOption(chuzhong_kexue_002_hangzhou);
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_002_wenzhou.php",function(data,status){
+        chuzhong_kexue_002_wenzhou_back = JSON.parse(data);
+    });
+    chuzhong_kexue_002_wenzhou = {
+        title : {
+            text: '温州市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_qinianji_sanjipoint,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_002_wenzhou_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_002_wenzhou')).setOption(chuzhong_kexue_002_wenzhou);
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_002_legend.php", function(data,status){
+        chuzhong_kexue_002_legend = JSON.parse(data);
+    });
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_002_jinhua.php",function(data,status){
+        chuzhong_kexue_002_jinhua_back = JSON.parse(data);
+    });
+    chuzhong_kexue_002_jinhua = {
+        title : {
+            text: '金华市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_qinianji_sanjipoint,
+        legend: {
+            orient: 'horizontal',
+            x: 'center',
+            y: 'bottom',
+            data: chuzhong_kexue_002_legend
+        },
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_002_jinhua_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_002_jinhua')).setOption(chuzhong_kexue_002_jinhua);
+
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_003_legend.php", function(data,status){
+        chuzhong_kexue_003_legend = JSON.parse(data);
+    });
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_003_ningbo.php",function(data,status){
+        chuzhong_kexue_003_ningbo_back = JSON.parse(data);
+    });
+    chuzhong_kexue_003_ningbo = {
+        title : {
+            text: '宁波市七年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_qinianji_sanjipoint,
+        legend: {
+            orient: 'horizontal',
+            x: 'center',
+            y: 'bottom',
+            data: chuzhong_kexue_003_legend
+        },
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_003_ningbo_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_003_ningbo')).setOption(chuzhong_kexue_003_ningbo);
+
+
+
+    color_banianji_sanjipoint = [
+        '#c1222b', '#27727c', '#fcce11', '#e87c25', '#b5c334',
+        '#fcce11', '#9bca63', '#fad85f', '#f3a43b', '#60c0dd',
+        '#d7504b', '#c7e579', '#f4e003', '#f0805b', '#26c0c0'];
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_004_hangzhou.php",function(data,status){
+        chuzhong_kexue_004_hangzhou_back = JSON.parse(data);
+    });
+    chuzhong_kexue_004_hangzhou = {
+        title : {
+            text: '杭州市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_banianji_sanjipoint,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_004_hangzhou_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_004_hangzhou')).setOption(chuzhong_kexue_004_hangzhou);
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_004_wenzhou.php",function(data,status){
+        chuzhong_kexue_004_wenzhou_back = JSON.parse(data);
+    });
+    chuzhong_kexue_004_wenzhou = {
+        title : {
+            text: '温州市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_banianji_sanjipoint,
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_004_wenzhou_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_004_wenzhou')).setOption(chuzhong_kexue_004_wenzhou);
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_004_legend.php", function(data,status){
+        chuzhong_kexue_004_legend = JSON.parse(data);
+    });
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_004_jinhua.php",function(data,status){
+        chuzhong_kexue_004_jinhua_back = JSON.parse(data);
+    });
+    chuzhong_kexue_004_jinhua = {
+        title : {
+            text: '金华市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_banianji_sanjipoint,
+        legend: {
+            orient: 'horizontal',
+            x: 'center',
+            y: 'bottom',
+            data: chuzhong_kexue_004_legend
+        },
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_004_jinhua_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_004_jinhua')).setOption(chuzhong_kexue_004_jinhua);
+
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_005_legend.php",function(data,status){
+        chuzhong_kexue_005_legend = JSON.parse(data);
+    });
+    $.get("http://localhost:8080/002/chuzhong_kexue/chuzhong_kexue_005_ningbo.php",function(data,status){
+        chuzhong_kexue_005_ningbo_back = JSON.parse(data);
+    });
+    chuzhong_kexue_005_ningbo = {
+        title : {
+            text: '宁波市八年级下期中试卷知识点分析',
+            x:'center',
+            "textStyle": {
+                "color": "silver",
+                "fontSize": 22
+            }
+        },
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+            }
+        },
+        calculable : true,
+        color: color_banianji_sanjipoint,
+        legend: {
+            orient: 'horizontal',
+            x: 'center',
+            y: 'bottom',
+            data: chuzhong_kexue_005_legend
+        },
+        series : [
+            {
+                name:'',
+                type:'pie',
+                radius : [40, 150],
+                "label": {
+                    "normal": {
+                        "show": false,
+                        "position": "outer",
+                        formatter(v) {
+                            // let text = v.name + v.percent+'%';
+                            let text = v.name;
+                            return text;
+                        },
+                        "textStyle": {
+                            "fontSize": 'default'
+                        }
+                    }
+                },
+                roseType : 'area',
+                data: chuzhong_kexue_005_ningbo_back
+            }
+        ]
+    };
+    echarts.init(document.getElementById('chuzhong_kexue_005_ningbo')).setOption(chuzhong_kexue_005_ningbo);
+
+
+
+</script>
+</body>
+</html>

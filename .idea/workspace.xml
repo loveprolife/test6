@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_001.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_002_hangzhou.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_002_jinhua.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_002_legend.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_002_ningbo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_002_wenzhou.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_003_hangzhou.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_003_jinhua.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_003_legend.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_003_ningbo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen_003_wenzhou.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,28 +29,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="15" />
+          <entry key="html" value="17" />
           <entry key="js" value="1" />
-          <entry key="php" value="174" />
+          <entry key="php" value="208" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="17" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="174" />
+          <entry key="PHP" value="208" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1634" />
-          <entry key="php" value="949" />
+          <entry key="html" value="1685" />
+          <entry key="php" value="969" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1634" />
-          <entry key="PHP" value="949" />
+          <entry key="HTML" value="1685" />
+          <entry key="PHP" value="969" />
         </counts>
       </usages-collector>
     </session>
@@ -71,47 +60,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_hangzhou.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_jinhua.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_legend.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_ningbo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_wenzhou.php">
+        <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="679">
+              <caret line="689" lean-forward="true" selection-start-line="689" selection-end-line="689" />
+              <folding>
+                <element signature="e#1346#1405#0" />
+                <element signature="e#1433#7914#0" />
+                <element signature="e#1452#1665#0" />
+                <element signature="e#1853#2244#0" />
+                <element signature="e#2265#2349#0" />
+                <element signature="e#2688#4514#0" />
+                <element signature="e#4922#7087#0" />
+                <element signature="e#7494#7814#0" />
+                <element signature="e#8045#8298#0" />
+                <element signature="e#8407#8475#0" />
+                <element signature="e#8512#9907#0" />
+                <element signature="e#8530#8710#0" />
+                <element signature="e#8730#8821#0" />
+                <element signature="e#8840#9076#0" />
+                <element signature="e#9294#9786#0" />
+                <element signature="e#10128#10195#0" />
+                <element signature="e#10231#11625#0" />
+                <element signature="e#11848#11909#0" />
+                <element signature="e#11843#11909#0" />
+                <element signature="e#11944#13337#0" />
+                <element signature="e#11962#12142#0" />
+                <element signature="e#12162#12253#0" />
+                <element signature="e#12272#12508#0" />
+                <element signature="e#12772#12911#0" />
+                <element signature="e#12726#13218#0" />
+                <element signature="e#13555#13616#0" />
+                <element signature="e#13723#13789#0" />
+                <element signature="e#13824#15374#0" />
+                <element signature="e#13842#14022#0" />
+                <element signature="e#14042#14133#0" />
+                <element signature="e#14152#14388#0" />
+                <element signature="e#14763#15255#0" />
+                <element signature="e#15520#15710#0" />
+                <element signature="e#15819#15887#0" />
+                <element signature="e#15924#17319#0" />
+                <element signature="e#15942#16122#0" />
+                <element signature="e#16142#16233#0" />
+                <element signature="e#16252#16488#0" />
+                <element signature="e#16706#17198#0" />
+                <element signature="e#17540#17607#0" />
+                <element signature="e#17643#19037#0" />
+                <element signature="e#17661#17841#0" />
+                <element signature="e#17861#17952#0" />
+                <element signature="e#17971#18207#0" />
+                <element signature="e#18425#18917#0" />
+                <element signature="e#19586#19647#0" />
+                <element signature="e#19255#19321#0" />
+                <element signature="e#19356#20749#0" />
+                <element signature="e#19374#19554#0" />
+                <element signature="e#19574#19665#0" />
+                <element signature="e#19684#19920#0" />
+                <element signature="e#20502#20641#0" />
+                <element signature="e#20138#20630#0" />
+                <element signature="e#20965#21026#0" />
+                <element signature="e#21133#21199#0" />
+                <element signature="e#21234#22784#0" />
+                <element signature="e#21252#21432#0" />
+                <element signature="e#21452#21543#0" />
+                <element signature="e#21562#21798#0" />
+                <element signature="e#22173#22665#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,10 +138,12 @@
       <find>http://39.106.102.214/test6</find>
       <find>chuzhong_yuwen_002_wenzhou</find>
       <find>yuwen</find>
+      <find>yingyu</find>
     </findStrings>
     <replaceStrings>
       <replace>http://localhost:8080</replace>
       <replace>yingyu</replace>
+      <replace>kexue</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,24 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_002.php" />
-        <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_003.php" />
-        <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_004.php" />
-        <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen.html" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu.html" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_001.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_002.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_002_legend.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_003.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_003_legend.php" />
-        <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue.html" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue_001.php" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue_002.php" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue_002_legend.php" />
@@ -186,6 +185,24 @@
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_legend.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_ningbo.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_wenzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_001.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_hangzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_jinhua.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_ningbo.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_wenzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_hangzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_jinhua.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_wenzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_legend.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_ningbo.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_legend.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_hangzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_wenzhou.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_jinhua.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_legend.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_005_ningbo.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_005_legend.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" />
       </list>
     </option>
   </component>
@@ -226,7 +243,7 @@
               <item name="test6" type="b2602c69:ProjectViewProjectNode" />
               <item name="test6" type="462c0819:PsiDirectoryNode" />
               <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="chuzhong_yingyu" type="462c0819:PsiDirectoryNode" />
+              <item name="chuzhong_kexue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,6 +264,7 @@
       <recent name="$PROJECT_DIR$/tmp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/002/chuzhong_kexue" />
       <recent name="$PROJECT_DIR$/002" />
       <recent name="$PROJECT_DIR$/002/chuzhong_yuwen" />
       <recent name="$PROJECT_DIR$" />
@@ -282,12 +300,12 @@
       <workItem from="1556435985328" duration="1881000" />
       <workItem from="1556448185558" duration="1124000" />
       <workItem from="1557034806188" duration="20250000" />
-      <workItem from="1557107843757" duration="4230000" />
+      <workItem from="1557107843757" duration="8722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48378000" />
+    <option name="totallyTimeSpent" value="52870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,104 +348,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_003.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_004.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_005.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_001.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_002_legend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen_003_legend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yuwen/gaozhong_yuwen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="338" lean-forward="true" selection-start-line="338" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_001.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_002.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_002_legend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_003.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002/gaozhong_yingyu/gaozhong_yingyu_003_legend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -753,14 +673,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_hangzhou.php">
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_wenzhou.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_jinhua.php">
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_ningbo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
@@ -774,17 +694,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_ningbo.php">
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_jinhua.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_wenzhou.php">
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_hangzhou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_001.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_hangzhou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_wenzhou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_jinhua.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_legend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_ningbo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_003_legend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_hangzhou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_wenzhou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_jinhua.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_004_legend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_005_legend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_005_ningbo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="689" lean-forward="true" selection-start-line="689" selection-end-line="689" />
+          <folding>
+            <element signature="e#1346#1405#0" />
+            <element signature="e#1433#7914#0" />
+            <element signature="e#1452#1665#0" />
+            <element signature="e#1853#2244#0" />
+            <element signature="e#2265#2349#0" />
+            <element signature="e#2688#4514#0" />
+            <element signature="e#4922#7087#0" />
+            <element signature="e#7494#7814#0" />
+            <element signature="e#8045#8298#0" />
+            <element signature="e#8407#8475#0" />
+            <element signature="e#8512#9907#0" />
+            <element signature="e#8530#8710#0" />
+            <element signature="e#8730#8821#0" />
+            <element signature="e#8840#9076#0" />
+            <element signature="e#9294#9786#0" />
+            <element signature="e#10128#10195#0" />
+            <element signature="e#10231#11625#0" />
+            <element signature="e#11848#11909#0" />
+            <element signature="e#11843#11909#0" />
+            <element signature="e#11944#13337#0" />
+            <element signature="e#11962#12142#0" />
+            <element signature="e#12162#12253#0" />
+            <element signature="e#12272#12508#0" />
+            <element signature="e#12772#12911#0" />
+            <element signature="e#12726#13218#0" />
+            <element signature="e#13555#13616#0" />
+            <element signature="e#13723#13789#0" />
+            <element signature="e#13824#15374#0" />
+            <element signature="e#13842#14022#0" />
+            <element signature="e#14042#14133#0" />
+            <element signature="e#14152#14388#0" />
+            <element signature="e#14763#15255#0" />
+            <element signature="e#15520#15710#0" />
+            <element signature="e#15819#15887#0" />
+            <element signature="e#15924#17319#0" />
+            <element signature="e#15942#16122#0" />
+            <element signature="e#16142#16233#0" />
+            <element signature="e#16252#16488#0" />
+            <element signature="e#16706#17198#0" />
+            <element signature="e#17540#17607#0" />
+            <element signature="e#17643#19037#0" />
+            <element signature="e#17661#17841#0" />
+            <element signature="e#17861#17952#0" />
+            <element signature="e#17971#18207#0" />
+            <element signature="e#18425#18917#0" />
+            <element signature="e#19586#19647#0" />
+            <element signature="e#19255#19321#0" />
+            <element signature="e#19356#20749#0" />
+            <element signature="e#19374#19554#0" />
+            <element signature="e#19574#19665#0" />
+            <element signature="e#19684#19920#0" />
+            <element signature="e#20502#20641#0" />
+            <element signature="e#20138#20630#0" />
+            <element signature="e#20965#21026#0" />
+            <element signature="e#21133#21199#0" />
+            <element signature="e#21234#22784#0" />
+            <element signature="e#21252#21432#0" />
+            <element signature="e#21452#21543#0" />
+            <element signature="e#21562#21798#0" />
+            <element signature="e#22173#22665#0" />
+          </folding>
         </state>
       </provider>
     </entry>
