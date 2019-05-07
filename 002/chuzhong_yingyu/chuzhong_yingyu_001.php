@@ -61,7 +61,7 @@ $rrr['series'][2]['data'] = array();
 
 
 for ($i = 0; $i < count($result_yi); $i++){
-    if((float)$result_yi[$i]['2'] > 0){
+    if((float)$result_yi[$i]['2'] >= 0){
         $tmp = array();
         $tmp['name'] = $result_yi[$i]['1'];
         $tmp['value'] = $result_yi[$i]['2'];
@@ -73,7 +73,7 @@ for ($i = 0; $i < count($rrr['series'][0]['data']); $i++){
     $sql_er = "SELECT id, er_name, SUM(zhi) FROM chuzhong_yingyu_001 WHERE is_show = 1 AND yi_name ='".$rrr['series'][0]['data'][$i]['name']."' GROUP BY er_name ORDER BY id ASC";
     $result_er = mysqli_query($connect, $sql_er)->fetch_all();
     for ($j = 0; $j < count($result_er); $j++){
-        if((float)$result_er[$j]['2'] > 0){
+        if((float)$result_er[$j]['2'] >= 0){
             $tmp = array();
             $tmp['name'] = $result_er[$j]['1'];
             $tmp['value'] = $result_er[$j]['2'];
@@ -86,7 +86,7 @@ for ($i = 0; $i < count($rrr['series'][1]['data']); $i++){
     $sql_san = "SELECT id, san_name, SUM(zhi) FROM chuzhong_yingyu_001 WHERE is_show = 1 AND er_name ='".$rrr['series'][1]['data'][$i]['name']."' GROUP BY san_name ORDER BY id ASC";
     $result_san = mysqli_query($connect, $sql_san)->fetch_all();
     for ($j = 0; $j < count($result_san); $j++){
-        if((float)$result_san[$j]['2'] > 0){
+        if((float)$result_san[$j]['2'] >= 0){
             $tmp = array();
             $tmp['name'] = $result_san[$j]['1'];
             $tmp['value'] = $result_san[$j]['2'];
