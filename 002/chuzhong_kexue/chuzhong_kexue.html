@@ -139,6 +139,9 @@
                         formatter(v) {
                             // let text = v.percent+'%' + v.name;
                             let text = v.name;
+                            if(text == '化学知识综合应用'){
+                                return text = `${text.slice(0,4)}\n${text.slice(4)}`
+                            }
                             return text;
                             if(v.name == '二元一次方程(组)'){
                                 return text;

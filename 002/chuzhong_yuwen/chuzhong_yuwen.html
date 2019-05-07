@@ -139,6 +139,15 @@
                         formatter(v) {
                             // let text = v.percent+'%' + v.name;
                             let text = v.name;
+                            if(v.name == '识记现代汉语普通话常用字的字音'){
+                                return text = `${text.slice(0,2)}\n${text.slice(2,4)}\n${text.slice(4,6)}\n${text.slice(6,8)}\n${text.slice(8,10)}\n${text.slice(10,12)}\n${text.slice(12,14)}\n${text.slice(14,16)}\n${text.slice(16,18)}\n${text.slice(18,20)}\n${text.slice(20,22)}`
+                            }
+                            if(v.name == '辨析与书写现代汉语普通话常用字的字形'){
+                                return text = `${text.slice(0,2)}\n${text.slice(2,4)}\n${text.slice(4,6)}\n${text.slice(6,8)}\n${text.slice(8,10)}\n${text.slice(10,12)}\n${text.slice(12,14)}\n${text.slice(14,16)}\n${text.slice(16,18)}\n${text.slice(18,20)}\n${text.slice(20,22)}`
+                            }
+                            if(v.name == '语言运用和综合性学习'){
+                                return text = "    " + text;
+                            }
                             return text;
                             if(v.name == '二元一次方程(组)'){
                                 return text;

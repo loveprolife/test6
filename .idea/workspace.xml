@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc449b5b-6e96-4a3e-aca1-bd2dcc482c42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/002/dao/dao_chuzhong_yuwen_001.php" beforeDir="false" afterPath="$PROJECT_DIR$/002/dao/dao_chuzhong_yuwen_001.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002/dao/datu/chuzhong_yuwen/001.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/002/dao/datu/chuzhong_yuwen/001.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" beforeDir="false" afterPath="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" beforeDir="false" afterPath="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,46 +19,49 @@
     <session id="-637920325">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="43" />
+          <entry key="html" value="49" />
           <entry key="js" value="7" />
+          <entry key="log" value="1" />
           <entry key="md" value="2" />
-          <entry key="php" value="237" />
+          <entry key="php" value="242" />
           <entry key="py" value="3" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="43" />
+          <entry key="HTML" value="49" />
           <entry key="JavaScript" value="7" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="237" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PHP" value="242" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2280" />
-          <entry key="php" value="1240" />
+          <entry key="html" value="2450" />
+          <entry key="php" value="1299" />
           <entry key="py" value="4" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2280" />
-          <entry key="PHP" value="1240" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="HTML" value="2450" />
+          <entry key="PHP" value="1299" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -68,10 +72,41 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_yuwen_001.php">
+        <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="40">
+              <caret line="136" column="37" lean-forward="true" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
+              <folding>
+                <element signature="e#1346#1405#0" />
+                <element signature="e#1452#1673#0" />
+                <element signature="e#1861#2252#0" />
+                <element signature="e#2273#2357#0" />
+                <element signature="e#2391#4606#0" />
+                <element signature="e#2696#4522#0" />
+                <element signature="e#7502#7822#0" />
+                <element signature="e#8053#8306#0" />
+                <element signature="e#8415#8483#0" />
+                <element signature="e#8520#9916#0" />
+                <element signature="e#10137#10204#0" />
+                <element signature="e#10240#11635#0" />
+                <element signature="e#11854#11915#0" />
+                <element signature="e#12022#12088#0" />
+                <element signature="e#12123#13674#0" />
+                <element signature="e#13892#13953#0" />
+                <element signature="e#14060#14126#0" />
+                <element signature="e#14161#15712#0" />
+                <element signature="e#15858#16048#0" />
+                <element signature="e#16157#16225#0" />
+                <element signature="e#16262#17658#0" />
+                <element signature="e#17879#17946#0" />
+                <element signature="e#17982#19377#0" />
+                <element signature="e#19596#19657#0" />
+                <element signature="e#19764#19830#0" />
+                <element signature="e#19865#21416#0" />
+                <element signature="e#21632#21693#0" />
+                <element signature="e#21800#21866#0" />
+                <element signature="e#21901#23452#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +127,8 @@
       <find>yuwen</find>
       <find>yingyu</find>
       <find>ffdb5c</find>
+      <find>chuzhong_yuwen_001_back</find>
+      <find>chuzhong_kexue_001_back</find>
     </findStrings>
     <replaceStrings>
       <replace>http://localhost:8080</replace>
@@ -105,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen_003_legend.php" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yuwen.html" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_001.php" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_002_hangzhou.php" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_002_jinhua.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_002_legend.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_002_ningbo.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_002_wenzhou.php" />
@@ -118,7 +150,6 @@
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_legend.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_ningbo.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_wenzhou.php" />
-        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_001.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_hangzhou.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_jinhua.php" />
         <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_ningbo.php" />
@@ -146,9 +177,6 @@
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue_003_legend.php" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue_003.php" />
         <option value="$PROJECT_DIR$/002/gaozhong_shuxue/gaozhong_shuxue.html" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" />
-        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html" />
-        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" />
         <option value="$PROJECT_DIR$/002/pdf2png.py" />
         <option value="$PROJECT_DIR$/test_d3/index.html" />
         <option value="$PROJECT_DIR$/test_d3/index2.html" />
@@ -156,6 +184,15 @@
         <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_001.php" />
         <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_yingyu_001.php" />
         <option value="$PROJECT_DIR$/002/dao/dao_chuzhong_yuwen_001.php" />
+        <option value="$PROJECT_DIR$/002/gaozhong_shuxue/aa.txt" />
+        <option value="$PROJECT_DIR$/002/gaozhong_shuxue/text.php" />
+        <option value="$PROJECT_DIR$/50x.html" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html" />
+        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html" />
+        <option value="$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_001.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_001.php" />
+        <option value="$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html" />
       </list>
     </option>
   </component>
@@ -171,10 +208,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
-    <option name="y" value="23" />
-    <option name="width" value="1677" />
-    <option name="height" value="984" />
+    <option name="y" value="478" />
+    <option name="width" value="1680" />
+    <option name="height" value="529" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -200,22 +236,7 @@
               <item name="test6" type="b2602c69:ProjectViewProjectNode" />
               <item name="test6" type="462c0819:PsiDirectoryNode" />
               <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test6" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="datu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test6" type="462c0819:PsiDirectoryNode" />
-              <item name="002" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="datu" type="462c0819:PsiDirectoryNode" />
-              <item name="chuzhong_yuwen" type="462c0819:PsiDirectoryNode" />
+              <item name="chuzhong_kexue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,12 +297,14 @@
       <workItem from="1557034806188" duration="20250000" />
       <workItem from="1557107843757" duration="19585000" />
       <workItem from="1557138879497" duration="344000" />
-      <workItem from="1557200209370" duration="6612000" />
+      <workItem from="1557200209370" duration="7388000" />
+      <workItem from="1557218720239" duration="1959000" />
+      <workItem from="1557222339222" duration="1729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70689000" />
+    <option name="totallyTimeSpent" value="75153000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +319,7 @@
     <frame x="0" y="23" width="1680" height="984" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887893" visible="true" weight="0.33638585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887893" visible="true" weight="0.34493285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011211" side_tool="true" weight="0.30463982" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,7 +332,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36098656" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.89910316" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -324,55 +347,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_wenzhou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_ningbo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_legend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_jinhua.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_003_hangzhou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_hangzhou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_wenzhou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_002_jinhua.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -440,13 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_001.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
@@ -527,27 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002/pdf2png.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -597,9 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="144" column="34" lean-forward="true" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,22 +565,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_d3/psd3/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-417" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/002/dao/dao_001xlsx.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/dao/dao_002xlsx.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/002/dao/dao_003xlsx.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/002/dao/dao_001xlsx.php" />
+    <entry file="file://$PROJECT_DIR$/002/dao/dao_002xlsx.php" />
+    <entry file="file://$PROJECT_DIR$/002/dao/dao_003xlsx.php" />
     <entry file="file://$PROJECT_DIR$/002/dao/dao_chuzhong_kexue_002.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -666,6 +599,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen_001.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/50x.html" />
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_shuxue/text.php" />
+    <entry file="file://$PROJECT_DIR$/002/gaozhong_shuxue/aa.txt" />
+    <entry file="file://$PROJECT_DIR$/php_error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yuwen/chuzhong_yuwen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="148" column="49" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
+          <folding>
+            <element signature="e#2391#4606#0" />
+            <element signature="e#8053#8306#0" />
+            <element signature="e#8520#9916#0" />
+            <element signature="e#10240#11635#0" />
+            <element signature="e#11954#13348#0" />
+            <element signature="e#13835#15386#0" />
+            <element signature="e#15532#15722#0" />
+            <element signature="e#15936#17332#0" />
+            <element signature="e#17656#19051#0" />
+            <element signature="e#19370#20764#0" />
+            <element signature="e#21249#22800#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1889">
+          <caret line="183" column="23" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
+          <folding>
+            <element signature="e#1465#1686#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_yingyu/chuzhong_yingyu_001.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue_001.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002/chuzhong_kexue/chuzhong_kexue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="136" column="37" lean-forward="true" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
+          <folding>
+            <element signature="e#1346#1405#0" />
+            <element signature="e#1452#1673#0" />
+            <element signature="e#1861#2252#0" />
+            <element signature="e#2273#2357#0" />
+            <element signature="e#2391#4606#0" />
+            <element signature="e#2696#4522#0" />
+            <element signature="e#7502#7822#0" />
+            <element signature="e#8053#8306#0" />
+            <element signature="e#8415#8483#0" />
+            <element signature="e#8520#9916#0" />
+            <element signature="e#10137#10204#0" />
+            <element signature="e#10240#11635#0" />
+            <element signature="e#11854#11915#0" />
+            <element signature="e#12022#12088#0" />
+            <element signature="e#12123#13674#0" />
+            <element signature="e#13892#13953#0" />
+            <element signature="e#14060#14126#0" />
+            <element signature="e#14161#15712#0" />
+            <element signature="e#15858#16048#0" />
+            <element signature="e#16157#16225#0" />
+            <element signature="e#16262#17658#0" />
+            <element signature="e#17879#17946#0" />
+            <element signature="e#17982#19377#0" />
+            <element signature="e#19596#19657#0" />
+            <element signature="e#19764#19830#0" />
+            <element signature="e#19865#21416#0" />
+            <element signature="e#21632#21693#0" />
+            <element signature="e#21800#21866#0" />
+            <element signature="e#21901#23452#0" />
+          </folding>
         </state>
       </provider>
     </entry>
